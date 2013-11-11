@@ -1,0 +1,73 @@
+[
+    {
+        "id": "sn",
+        "find": true,
+        "cssPrefix": ".icon-sn",
+        "cssClass": "icon-sn",
+        "fileName": "icon-sn.css"
+    },
+    {
+        "id": "se",
+        "find": true,
+        "cssPrefix": ".icon-se",
+        "cssClass": "icon-se",
+        "fileName": "icon-se.css"
+    },
+    {
+        "id": "protocol",
+        "find": false,
+        "cssPrefix": ".icon-protocol",
+        "cssClass": "icon-protocol",
+        "fileName": "icon-protocol.css"
+    },
+    {
+        "id": "os",
+        "find": false,
+        "cssPrefix": ".icon-os",
+        "cssClass": "icon-os",
+        "fileName": "icon-os.css"
+    }, 
+    {
+        "id": "mobile",
+        "find": false,
+        "cssPrefix": ".icon-mobile",
+        "cssClass": "icon-mobile",
+        "fileName": "icon-mobile.css"
+    },
+    {
+        "id": "interest",
+        "find": false,
+        "cssPrefix": ".icon-interest",
+        "cssClass": "icon-interest",
+        "fileName": "icon-interest.css"
+    },   
+    {
+        "id": "ext",
+        "find": false,
+        "cssPrefix": ".icon-ext",
+        "cssClass": "icon-ext",
+        "fileName": "icon-ext.css"
+    },    
+    {
+        "id": "country",
+        "find": false,
+        "fileNameFromName": true,
+        "cssPrefix": ".icon-country",
+        "cssClass": "icon-country",
+        "fileName": "icon-country.css"
+    },
+    {
+        "id": "browser",
+        "find": false,
+        "cssPrefix": ".icon-browser",
+        "cssClass": "icon-browser",
+        "fileName": "icon-browser.css"
+    },    
+    {
+        "id": "bn",
+        "find": false,
+        "cssPrefix": ".icon-bn",
+        "cssClass": "icon-bn",
+        "fileName": "icon-bn.css"
+    }
+]

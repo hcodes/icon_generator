@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Тест фавиконок</title>
+    {link}
+    <style type="text/css">
+        html, body {
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }
+        
+        ul, li {
+            list-style: none;
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+        #content {
+            padding-left: 150px;
+        }
+
+        #color-switcher {
+            position: fixed;
+            right: 5px;
+            top: 5px;
+            width: 100px;
+        }
+
+        #white {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+            background-color: white;
+            border: 1px solid black;
+        }
+
+        #white: hover,
+        #black: hover {
+            opacity: 0.8;
+        }
+
+        #black {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+            margin-right: 5px;
+            background-color: black;
+            border: 1px solid white;
+        }
+
+        td {
+            vertical-align: middle;
+            padding-right: 5px;
+        }
+        
+        #menu {
+            position: fixed;
+            left: 30px;
+            top: 100px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            padding: 5px;
+        }
+        
+        #menu li {
+            margin: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <div id="color-switcher"><span id="black"></span><span id="white"></span></div>
+    <script type="text/javascript">
+        (function () {
+            var body = document.body;
+            document.getElementById('black').onclick = function() {
+                body.style.backgroundColor = 'black';
+                body.style.color = 'white';
+            };
+            
+            document.getElementById('white').onclick = function() {
+                body.style.backgroundColor = 'white';
+                body.style.color = 'black';
+            };
+        })();
+    </script>
+    <div id="content">
+        <!--<div style="margin:0.5em;">
+            <a href="#" onclick="document.getElementById('log').style.display = 'block';">Лог построения иконок</a>
+            <div id="log" style="display:none; margin-bottom:1em;">{log}</div>
+        </div>-->
+        {content}
+     </div>
+</body>
+</html>

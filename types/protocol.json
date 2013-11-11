@@ -1,0 +1,7 @@
+[
+	{"id": "mailto", "name": "mailto"},
+	{"id": "torrent", "name": "torrent"},
+	{"id": "skype", "name": "skype"},
+	{"id": "tel", "name": "tel"},
+	{"id": "rss", "name": "rss"}   
+]

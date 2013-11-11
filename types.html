@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Тест фавиконок</title>
+    <link rel="stylesheet" type="text/css" href="icon-bn.css?rnd=0" />
+<link rel="stylesheet" type="text/css" href="icon-browser.css?rnd=0" />
+<link rel="stylesheet" type="text/css" href="icon-country.css?rnd=0" />
+<link rel="stylesheet" type="text/css" href="icon-ext.css?rnd=0" />
+<link rel="stylesheet" type="text/css" href="icon-interest.css?rnd=0" />
+<link rel="stylesheet" type="text/css" href="icon-mobile.css?rnd=0" />
+<link rel="stylesheet" type="text/css" href="icon-os.css?rnd=0" />
+<link rel="stylesheet" type="text/css" href="icon-protocol.css?rnd=0" />
+<link rel="stylesheet" type="text/css" href="icon-se.css?rnd=0" />
+<link rel="stylesheet" type="text/css" href="icon-sn.css?rnd=0" />
+    <style type="text/css">
+        html, body {
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }
+        
+        ul, li {
+            list-style: none;
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+        #content {
+            padding-left: 150px;
+        }
+
+        #color-switcher {
+            position: fixed;
+            right: 5px;
+            top: 5px;
+            width: 100px;
+        }
+
+        #white {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+            background-color: white;
+            border: 1px solid black;
+        }
+
+        #white: hover,
+        #black: hover {
+            opacity: 0.8;
+        }
+
+        #black {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+            margin-right: 5px;
+            background-color: black;
+            border: 1px solid white;
+        }
+
+        td {
+            vertical-align: middle;
+            padding-right: 5px;
+        }
+        
+        #menu {
+            position: fixed;
+            left: 30px;
+            top: 100px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            padding: 5px;
+        }
+        
+        #menu li {
+            margin: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <div id="color-switcher"><span id="black"></span><span id="white"></span></div>
+    <script type="text/javascript">
+        (function () {
+            var body = document.body;
+            document.getElementById('black').onclick = function() {
+                body.style.backgroundColor = 'black';
+                body.style.color = 'white';
+            };
+            
+            document.getElementById('white').onclick = function() {
+                body.style.backgroundColor = 'white';
+                body.style.color = 'black';
+            };
+        })();
+    </script>
+    <div id="content">
+        <!--<div style="margin:0.5em;">
+            <a href="#" onclick="document.getElementById('log').style.display = 'block';">Лог построения иконок</a>
+            <div id="log" style="display:none; margin-bottom:1em;">{log}</div>
+        </div>-->
+        <ul id="menu">
+<li><a href="#bn">bn</a></li>
+<li><a href="#browser">browser</a></li>
+<li><a href="#country">country</a></li>
+<li><a href="#ext">ext</a></li>
+<li><a href="#interest">interest</a></li>
+<li><a href="#mobile">mobile</a></li>
+<li><a href="#os">os</a></li>
+<li><a href="#protocol">protocol</a></li>
+<li><a href="#se">se</a></li>
+<li><a href="#sn">sn</a></li>
+</ul><br /><br />
+<h1 id="bn">bn</h1>
+<ul>
+<li><i class="icon-bn icon-bn_id_1"></i> Яндекс</li>
+<li><i class="icon-bn icon-bn_id_2"></i> Google Adwords</li>
+<li><i class="icon-bn icon-bn_id_3"></i> Бегун</li>
+<li><i class="icon-bn icon-bn_id_4"></i> Красноярск.Биз</li>
+<li><i class="icon-bn icon-bn_id_5"></i> Линк.ру</li>
+<li><i class="icon-bn icon-bn_id_6"></i> MadBanner</li>
+<li><i class="icon-bn icon-bn_id_7"></i> Magna-context</li>
+<li><i class="icon-bn icon-bn_id_8"></i> RORER</li>
+<li><i class="icon-bn icon-bn_id_9"></i> Ставка.ру</li>
+<li><i class="icon-bn icon-bn_id_11"></i> Вебальта</li>
+<li><i class="icon-bn icon-bn_id_12"></i> Маркет</li>
+<li><i class="icon-bn icon-bn_id_13"></i> aVtomarket.ru</li>
+<li><i class="icon-bn icon-bn_id_14"></i> Каванга</li>
+<li><i class="icon-bn icon-bn_id_15"></i> PRRE.RU</li>
+<li><i class="icon-bn icon-bn_id_16"></i> Videonow.ru</li>
+<li><i class="icon-bn icon-bn_id_17"></i> AdRiver</li>
+<li><i class="icon-bn icon-bn_id_18"></i> AdFox</li>
+<li><i class="icon-bn icon-bn_id_19"></i> MediaTarget</li>
+<li><i class="icon-bn icon-bn_id_20"></i> DirectPoint</li>
+<li><i class="icon-bn icon-bn_id_21"></i> TBN</li>
+<li><i class="icon-bn icon-bn_id_22"></i> LitBN</li>
+<li><i class="icon-bn icon-bn_id_23"></i> SoftBN</li>
+<li><i class="icon-bn icon-bn_id_24"></i> AdLand</li>
+<li><i class="icon-bn icon-bn_id_25"></i> Linkad</li>
+<li><i class="icon-bn icon-bn_id_26"></i> Украинская Баннерная Сеть</li>
+<li><i class="icon-bn icon-bn_id_27"></i> БаннерБанк</li>
+<li><i class="icon-bn icon-bn_id_28"></i> BannerHost</li>
+<li><i class="icon-bn icon-bn_id_29"></i> List Banner Exchange</li>
+<li><i class="icon-bn icon-bn_id_30"></i> Pravda Banner Network</li>
+<li><i class="icon-bn icon-bn_id_31"></i> Land Banner Network</li>
+<li><i class="icon-bn icon-bn_id_32"></i> IBN</li>
+<li><i class="icon-bn icon-bn_id_33"></i> BigBN</li>
+<li><i class="icon-bn icon-bn_id_34"></i> AWAPS</li>
+<li><i class="icon-bn icon-bn_id_35"></i> advmaker</li>
+<li><i class="icon-bn icon-bn_id_36"></i> Товары@Mail.ru</li>
+<li><i class="icon-bn icon-bn_id_1-542"></i> Яндекс.Директ</li>
+<li><i class="icon-bn icon-bn_id_1-10"></i> Яндекс.Маркет</li>
+<li><i class="icon-bn icon-bn_id_37"></i> ВКонтакте</li>
+<li><i class="icon-bn icon-bn_id_38"></i> facebook</li>
+<li><i class="icon-bn icon-bn_id_39"></i> Однокласники</li>
+<li><i class="icon-bn icon-bn_id_40"></i> Мой Мир</li>
+<li><i class="icon-bn icon-bn_id_41"></i> B2BContext</li>
+<li><i class="icon-bn icon-bn_id_42"></i> AdNews</li>
+<li><i class="icon-bn icon-bn_id_43"></i> People Group</li>
+<li><i class="icon-bn icon-bn_id_44"></i> VisitWeb.com</li>
+<li><i class="icon-bn icon-bn_id_45"></i> Adlabs Media Network</li>
+<li><i class="icon-bn icon-bn_id_46"></i> Admitad</li>
+<li><i class="icon-bn icon-bn_id_47"></i> medialand</li>
+<li><i class="icon-bn icon-bn_id_48"></i> Таргет@Mail.ru</li>
+<li><i class="icon-bn icon-bn_id_49"></i> Яндекс.Справочник</li>
+</ul><br /><br />
+<h1 id="browser">browser</h1>
+<ul>
+<li><i class="icon-browser icon-browser_id_1"></i> Opera Mini</li>
+<li><i class="icon-browser icon-browser_id_2"></i> Opera</li>
+<li><i class="icon-browser icon-browser_id_3"></i> Firefox</li>
+<li><i class="icon-browser icon-browser_id_4"></i> Safari</li>
+<li><i class="icon-browser icon-browser_id_5"></i> MSIE</li>
+<li><i class="icon-browser icon-browser_id_6"></i> Google Chrome</li>
+<li><i class="icon-browser icon-browser_id_7"></i> Minefield</li>
+<li><i class="icon-browser icon-browser_id_8"></i> SeaMonkey</li>
+<li><i class="icon-browser icon-browser_id_9"></i> Netscape</li>
+<li><i class="icon-browser icon-browser_id_10"></i> K-Meleon</li>
+<li><i class="icon-browser icon-browser_id_11"></i> Iceweasel</li>
+<li><i class="icon-browser icon-browser_id_12"></i> Konqueror</li>
+<li><i class="icon-browser icon-browser_id_14"></i> UCWEB</li>
+<li><i class="icon-browser icon-browser_id_15"></i> NetFront</li>
+<li><i class="icon-browser icon-browser_id_16"></i> Epiphany</li>
+<li><i class="icon-browser icon-browser_id_17"></i> Songbird</li>
+<li><i class="icon-browser icon-browser_id_18"></i> MAUI WAP Browser</li>
+<li><i class="icon-browser icon-browser_id_19"></i> PlayStation 3</li>
+<li><i class="icon-browser icon-browser_id_20"></i> Iceape</li>
+<li><i class="icon-browser icon-browser_id_21"></i> Camino</li>
+<li><i class="icon-browser icon-browser_id_22"></i> SEMC-Browser</li>
+<li><i class="icon-browser icon-browser_id_23"></i> UP.Browser</li>
+<li><i class="icon-browser icon-browser_id_24"></i> NCSA Mosaic</li>
+<li><i class="icon-browser icon-browser_id_25"></i> Galeon</li>
+<li><i class="icon-browser icon-browser_id_26"></i> Flock</li>
+<li><i class="icon-browser icon-browser_id_27"></i> Trident, другие</li>
+<li><i class="icon-browser icon-browser_id_28"></i> Gecko, другие</li>
+<li><i class="icon-browser icon-browser_id_29"></i> Presto, другие</li>
+<li><i class="icon-browser icon-browser_id_30"></i> WebKit, другие</li>
+<li><i class="icon-browser icon-browser_id_31"></i> KHTML, другие|</li>
+<li><i class="icon-browser icon-browser_id_32"></i> Avant Browser</li>
+<li><i class="icon-browser icon-browser_id_33"></i> Maxthon</li>
+<li><i class="icon-browser icon-browser_id_34"></i> MyIE</li>
+<li><i class="icon-browser icon-browser_id_35"></i> MyIE2</li>
+<li><i class="icon-browser icon-browser_id_36"></i> NetCaptor</li>
+<li><i class="icon-browser icon-browser_id_37"></i> Opera Mobile</li>
+<li><i class="icon-browser icon-browser_id_38"></i> Mobile Safari</li>
+<li><i class="icon-browser icon-browser_id_39"></i> Mozad</li>
+<li><i class="icon-browser icon-browser_id_40"></i> Arora</li>
+<li><i class="icon-browser icon-browser_id_41"></i> Novarra</li>
+<li><i class="icon-browser icon-browser_id_42"></i> Lynx</li>
+<li><i class="icon-browser icon-browser_id_43"></i> Links</li>
+<li><i class="icon-browser icon-browser_id_44"></i> MSIE Mobile</li>
+<li><i class="icon-browser icon-browser_id_45"></i> Moblin Browser</li>
+<li><i class="icon-browser icon-browser_id_72"></i> Android Browser</li>
+<li><i class="icon-browser icon-browser_id_997"></i> old Firefox</li>
+<li><i class="icon-browser icon-browser_id_998"></i> old Opera</li>
+<li><i class="icon-browser icon-browser_id_999"></i> MSIE 4, 5 or 6</li>
+<li><i class="icon-browser icon-browser_id_46"></i> Adobe Air</li>
+<li><i class="icon-browser icon-browser_id_47"></i> Blazer</li>
+<li><i class="icon-browser icon-browser_id_48"></i> Obigo Browser</li>
+<li><i class="icon-browser icon-browser_id_1000"></i> MSIE 9</li>
+<li><i class="icon-browser icon-browser_id_1001"></i> Chrome 11, 12</li>
+<li><i class="icon-browser icon-browser_id_49"></i> Conkeror</li>
+<li><i class="icon-browser icon-browser_id_50"></i> rekonq</li>
+<li><i class="icon-browser icon-browser_id_51"></i> NetSurf</li>
+<li><i class="icon-browser icon-browser_id_52"></i> Dillo</li>
+<li><i class="icon-browser icon-browser_id_53"></i> Fennec</li>
+<li><i class="icon-browser icon-browser_id_55"></i> iChromy</li>
+<li><i class="icon-browser icon-browser_id_56"></i> Opera Tablet</li>
+<li><i class="icon-browser icon-browser_id_57"></i> Nokia Browser NG</li>
+<li><i class="icon-browser icon-browser_id_58"></i> QupZilla</li>
+<li><i class="icon-browser icon-browser_id_59"></i> Яндекс.Интернет</li>
+<li><i class="icon-browser icon-browser_id_60"></i> Интернет@Mail.ru</li>
+<li><i class="icon-browser icon-browser_id_61"></i> Ovi Browser</li>
+<li><i class="icon-browser icon-browser_id_62"></i> Uzbl</li>
+<li><i class="icon-browser icon-browser_id_63"></i> Samsung Dolfin</li>
+<li><i class="icon-browser icon-browser_id_64"></i> Samsung Jasmine</li>
+<li><i class="icon-browser icon-browser_id_65"></i> TeaShark</li>
+<li><i class="icon-browser icon-browser_id_66"></i> Skyfire</li>
+<li><i class="icon-browser icon-browser_id_67"></i> Nokia Series 60 Browser</li>
+<li><i class="icon-browser icon-browser_id_68"></i> LG Phantom Browser</li>
+<li><i class="icon-browser icon-browser_id_69"></i> Thunderbird</li>
+<li><i class="icon-browser icon-browser_id_70"></i> Яндекс.Браузер</li>
+<li><i class="icon-browser icon-browser_id_83"></i> ChromeMobile</li>
+</ul><br /><br />
+<h1 id="country">country</h1>
+<ul>
+<li><i class="icon-country icon-country_id_21567"></i> GL</li>
+<li><i class="icon-country icon-country_id_21475"></i> DJ</li>
+<li><i class="icon-country icon-country_id_10013"></i> JM</li>
+<li><i class="icon-country icon-country_id_20739"></i> PG</li>
+<li><i class="icon-country icon-country_id_113"></i> AT</li>
+<li><i class="icon-country icon-country_id_21251"></i> SZ</li>
+<li><i class="icon-country icon-country_id_20274"></i> BN</li>
+<li><i class="icon-country icon-country_id_21196"></i> ZM</li>
+<li><i class="icon-country icon-country_id_20762"></i> CD</li>
+<li><i class="icon-country icon-country_id_21239"></i> BW</li>
+<li><i class="icon-country icon-country_id_21182"></i> AO</li>
+<li><i class="icon-country icon-country_id_20954"></i> ZW</li>
+<li><i class="icon-country icon-country_id_20764"></i> PR</li>
+<li><i class="icon-country icon-country_id_137"></i> JP</li>
+<li><i class="icon-country icon-country_id_21217"></i> NA</li>
+<li><i class="icon-country icon-country_id_209"></i> TJ</li>
+<li><i class="icon-country icon-country_id_21395"></i> LC</li>
+<li><i class="icon-country icon-country_id_10020"></i> MA</li>
+<li><i class="icon-country icon-country_id_21556"></i> VU</li>
+<li><i class="icon-country icon-country_id_10069"></i> MT</li>
+<li><i class="icon-country icon-country_id_20769"></i> SV</li>
+<li><i class="icon-country icon-country_id_10099"></i> MN</li>
+<li><i class="icon-country icon-country_id_205"></i> IT</li>
+<li><i class="icon-country icon-country_id_21591"></i> RE</li>
+<li><i class="icon-country icon-country_id_20860"></i> WS</li>
+<li><i class="icon-country icon-country_id_124"></i> FR</li>
+<li><i class="icon-country icon-country_id_1056"></i> EG</li>
+<li><i class="icon-country icon-country_id_171"></i> UZ</li>
+<li><i class="icon-country icon-country_id_21589"></i> PW</li>
+<li><i class="icon-country icon-country_id_21278"></i> LR</li>
+<li><i class="icon-country icon-country_id_21371"></i> RW</li>
+<li><i class="icon-country icon-country_id_10024"></i> TN</li>
+<li><i class="icon-country icon-country_id_114"></i> BE</li>
+<li><i class="icon-country icon-country_id_179"></i> EE</li>
+<li><i class="icon-country icon-country_id_149"></i> BY</li>
+<li><i class="icon-country icon-country_id_10540"></i> SA</li>
+<li><i class="icon-country icon-country_id_119"></i> NO</li>
+<li><i class="icon-country icon-country_id_21261"></i> LS</li>
+<li><i class="icon-country icon-country_id_135"></i> KR</li>
+<li><i class="icon-country icon-country_id_10021"></i> ZA</li>
+<li><i class="icon-country icon-country_id_10074"></i> PT</li>
+<li><i class="icon-country icon-country_id_21165"></i> BF</li>
+<li><i class="icon-country icon-country_id_95"></i> CA</li>
+<li><i class="icon-country icon-country_id_168"></i> AM</li>
+<li><i class="icon-country icon-country_id_20736"></i> CM</li>
+<li><i class="icon-country icon-country_id_21344"></i> SR</li>
+<li><i class="icon-country icon-country_id_20854"></i> MG</li>
+<li><i class="icon-country icon-country_id_10101"></i> NP</li>
+<li><i class="icon-country icon-country_id_21550"></i> BT</li>
+<li><i class="icon-country icon-country_id_120"></i> PL</li>
+<li><i class="icon-country icon-country_id_170"></i> TM</li>
+<li><i class="icon-country icon-country_id_21137"></i> GA</li>
+<li><i class="icon-country icon-country_id_21007"></i> CF</li>
+<li><i class="icon-country icon-country_id_210"></i> AE</li>
+<li><i class="icon-country icon-country_id_10057"></i> BA</li>
+<li><i class="icon-country icon-country_id_995"></i> TH</li>
+<li><i class="icon-country icon-country_id_10108"></i> PH</li>
+<li><i class="icon-country icon-country_id_21231"></i> NI</li>
+<li><i class="icon-country icon-country_id_21584"></i> NC</li>
+<li><i class="icon-country icon-country_id_159"></i> KZ</li>
+<li><i class="icon-country icon-country_id_10100"></i> MM</li>
+<li><i class="icon-country icon-country_id_21339"></i> NE</li>
+<li><i class="icon-country icon-country_id_20746"></i> DM</li>
+<li><i class="icon-country icon-country_id_21599"></i> TO</li>
+<li><i class="icon-country icon-country_id_21349"></i> MR</li>
+<li><i class="icon-country icon-country_id_10088"></i> AD</li>
+<li><i class="icon-country icon-country_id_127"></i> SE</li>
+<li><i class="icon-country icon-country_id_167"></i> AZ</li>
+<li><i class="icon-country icon-country_id_10090"></i> AF</li>
+<li><i class="icon-country icon-country_id_20741"></i> NG</li>
+<li><i class="icon-country icon-country_id_21223"></i> KE</li>
+<li><i class="icon-country icon-country_id_20869"></i> BJ</li>
+<li><i class="icon-country icon-country_id_21610"></i> ME</li>
+<li><i class="icon-country icon-country_id_21586"></i> OM</li>
+<li><i class="icon-country icon-country_id_21559"></i> VG</li>
+<li><i class="icon-country icon-country_id_10093"></i> VN</li>
+<li><i class="icon-country icon-country_id_21551"></i> YE</li>
+<li><i class="icon-country icon-country_id_20826"></i> DZ</li>
+<li><i class="icon-country icon-country_id_20733"></i> CI</li>
+<li><i class="icon-country icon-country_id_10109"></i> LK</li>
+<li><i class="icon-country icon-country_id_10095"></i> ID</li>
+<li><i class="icon-country icon-country_id_169"></i> GE</li>
+<li><i class="icon-country icon-country_id_21010"></i> GM</li>
+<li><i class="icon-country icon-country_id_206"></i> LV</li>
+<li><i class="icon-country icon-country_id_225"></i> RU</li>
+<li><i class="icon-country icon-country_id_10538"></i> LB</li>
+<li><i class="icon-country icon-country_id_96"></i> DE</li>
+<li><i class="icon-country icon-country_id_123"></i> FI</li>
+<li><i class="icon-country icon-country_id_21203"></i> LU</li>
+<li><i class="icon-country icon-country_id_21184"></i> VE</li>
+<li><i class="icon-country icon-country_id_10532"></i> BH</li>
+<li><i class="icon-country icon-country_id_10077"></i> RO</li>
+<li><i class="icon-country icon-country_id_994"></i> IN</li>
+<li><i class="icon-country icon-country_id_21564"></i> GP</li>
+<li><i class="icon-country icon-country_id_93"></i> AR</li>
+<li><i class="icon-country icon-country_id_21441"></i> SN</li>
+<li><i class="icon-country icon-country_id_20271"></i> MX</li>
+<li><i class="icon-country icon-country_id_21536"></i> AW</li>
+<li><i class="icon-country icon-country_id_fo"></i> FO</li>
+<li><i class="icon-country icon-country_id_21175"></i> HN</li>
+<li><i class="icon-country icon-country_id_94"></i> BR</li>
+<li><i class="icon-country icon-country_id_181"></i> IL</li>
+<li><i class="icon-country icon-country_id_20915"></i> SB</li>
+<li><i class="icon-country icon-country_id_98552"></i> PS</li>
+<li><i class="icon-country icon-country_id_139"></i> NZ</li>
+<li><i class="icon-country icon-country_id_116"></i> HU</li>
+<li><i class="icon-country icon-country_id_20917"></i> DO</li>
+<li><i class="icon-country icon-country_id_21230"></i> UG</li>
+<li><i class="icon-country icon-country_id_20975"></i> KH</li>
+<li><i class="icon-country icon-country_id_102"></i> GB</li>
+<li><i class="icon-country icon-country_id_21171"></i> TG</li>
+<li><i class="icon-country icon-country_id_21019"></i> BB</li>
+<li><i class="icon-country icon-country_id_21321"></i> HT</li>
+<li><i class="icon-country icon-country_id_203"></i> DK</li>
+<li><i class="icon-country icon-country_id_21299"></i> PA</li>
+<li><i class="icon-country icon-country_id_21486"></i> QA</li>
+<li><i class="icon-country icon-country_id_21326"></i> CV</li>
+<li><i class="icon-country icon-country_id_21426"></i> GD</li>
+<li><i class="icon-country icon-country_id_21297"></i> KM</li>
+<li><i class="icon-country icon-country_id_10083"></i> HR</li>
+<li><i class="icon-country icon-country_id_10537"></i> KW</li>
+<li><i class="icon-country icon-country_id_21595"></i> TC</li>
+<li><i class="icon-country icon-country_id_125"></i> CZ</li>
+<li><i class="icon-country icon-country_id_204"></i> ES</li>
+<li><i class="icon-country icon-country_id_21235"></i> MZ</li>
+<li><i class="icon-country icon-country_id_10015"></i> BO</li>
+<li><i class="icon-country icon-country_id_21199"></i> ST</li>
+<li><i class="icon-country icon-country_id_211"></i> AU</li>
+<li><i class="icon-country icon-country_id_10054"></i> AL</li>
+<li><i class="icon-country icon-country_id_10536"></i> IR</li>
+<li><i class="icon-country icon-country_id_21198"></i> CG</li>
+<li><i class="icon-country icon-country_id_983"></i> TR</li>
+<li><i class="icon-country icon-country_id_208"></i> MD</li>
+<li><i class="icon-country icon-country_id_21214"></i> BI</li>
+<li><i class="icon-country icon-country_id_20818"></i> GN</li>
+<li><i class="icon-country icon-country_id_21143"></i> GW</li>
+<li><i class="icon-country icon-country_id_10068"></i> MK</li>
+<li><i class="icon-country icon-country_id_246"></i> GR</li>
+<li><i class="icon-country icon-country_id_20856"></i> AG</li>
+<li><i class="icon-country icon-country_id_122"></i> SI</li>
+<li><i class="icon-country icon-country_id_21191"></i> CO</li>
+<li><i class="icon-country icon-country_id_21534"></i> AI</li>
+<li><i class="icon-country icon-country_id_10535"></i> JO</li>
+<li><i class="icon-country icon-country_id_187"></i> UA</li>
+<li><i class="icon-country icon-country_id_20789"></i> EH</li>
+<li><i class="icon-country icon-country_id_20862"></i> CL</li>
+<li><i class="icon-country icon-country_id_10017"></i> CU</li>
+<li><i class="icon-country icon-country_id_21042"></i> KN</li>
+<li><i class="icon-country icon-country_id_21004"></i> ML</li>
+<li><i class="icon-country icon-country_id_20768"></i> ET</li>
+<li><i class="icon-country icon-country_id_10064"></i> IS</li>
+<li><i class="icon-country icon-country_id_118"></i> NL</li>
+<li><i class="icon-country icon-country_id_20785"></i> EC</li>
+<li><i class="icon-country icon-country_id_10097"></i> MY</li>
+<li><i class="icon-country icon-country_id_21131"></i> CR</li>
+<li><i class="icon-country icon-country_id_20957"></i> SD</li>
+<li><i class="icon-country icon-country_id_180"></i> RS</li>
+<li><i class="icon-country icon-country_id_134"></i> CN</li>
+<li><i class="icon-country icon-country_id_115"></i> BG</li>
+<li><i class="icon-country icon-country_id_21289"></i> UY</li>
+<li><i class="icon-country icon-country_id_20992"></i> PY</li>
+<li><i class="icon-country icon-country_id_21325"></i> BS</li>
+<li><i class="icon-country icon-country_id_21562"></i> TL</li>
+<li><i class="icon-country icon-country_id_21241"></i> MU</li>
+<li><i class="icon-country icon-country_id_126"></i> CH</li>
+<li><i class="icon-country icon-country_id_10067"></i> LI</li>
+<li><i class="icon-country icon-country_id_20802"></i> GH</li>
+<li><i class="icon-country icon-country_id_207"></i> KG</li>
+<li><i class="icon-country icon-country_id_84"></i> US</li>
+<li><i class="icon-country icon-country_id_21156"></i> PE</li>
+<li><i class="icon-country icon-country_id_21219"></i> SL</li>
+<li><i class="icon-country icon-country_id_21544"></i> BZ</li>
+<li><i class="icon-country icon-country_id_20574"></i> CY</li>
+<li><i class="icon-country icon-country_id_10030"></i> FJ</li>
+<li><i class="icon-country icon-country_id_10063"></i> IE</li>
+<li><i class="icon-country icon-country_id_29385"></i> TW</li>
+<li><i class="icon-country icon-country_id_10104"></i> KP</li>
+<li><i class="icon-country icon-country_id_20989"></i> ER</li>
+<li><i class="icon-country icon-country_id_20572"></i> IQ</li>
+<li><i class="icon-country icon-country_id_21208"></i> TZ</li>
+<li><i class="icon-country icon-country_id_21151"></i> MW</li>
+<li><i class="icon-country icon-country_id_10023"></i> LY</li>
+<li><i class="icon-country icon-country_id_20968"></i> GT</li>
+<li><i class="icon-country icon-country_id_21477"></i> GY</li>
+<li><i class="icon-country icon-country_id_21546"></i> BM</li>
+<li><i class="icon-country icon-country_id_10102"></i> PK</li>
+<li><i class="icon-country icon-country_id_21045"></i> GQ</li>
+<li><i class="icon-country icon-country_id_117"></i> LT</li>
+<li><i class="icon-country icon-country_id_10105"></i> SG</li>
+<li><i class="icon-country icon-country_id_21187"></i> TT</li>
+<li><i class="icon-country icon-country_id_21227"></i> SO</li>
+<li><i class="icon-country icon-country_id_21331"></i> TD</li>
+<li><i class="icon-country icon-country_id_10542"></i> SY</li>
+<li><i class="icon-country icon-country_id_121"></i> SK</li>
+<li><i class="icon-country icon-country_id_10091"></i> BD</li>
+<li><i class="icon-country icon-country_id_29386"></i> ABH</li>
+<li><i class="icon-country icon-country_id_10070"></i> MC</li>
+<li><i class="icon-country icon-country_id_20790"></i> SM</li>
+<li><i class="icon-country icon-country_id_10022"></i> SC</li>
+<li><i class="icon-country icon-country_id_21538"></i> AN</li>
+<li><i class="icon-country icon-country_id_10098"></i> MV</li>
+<li><i class="icon-country icon-country_id_21330"></i> PY</li>
+<li><i class="icon-country icon-country_id_21570"></i> KY</li>
+<li><i class="icon-country icon-country_id_21553"></i> VG</li>
+<li><i class="icon-country icon-country_id_20747"></i> GU</li>
+<li><i class="icon-country icon-country_id_21359"></i> VA</li>
+<li><i class="icon-country icon-country_id_21576"></i> YT</li>
+<li><i class="icon-country icon-country_id_21574"></i> CK</li>
+<li><i class="icon-country icon-country_id_20754"></i> VC</li>
+<li><i class="icon-country icon-country_id_10089"></i> GI</li>
+<li><i class="icon-country icon-country_id_20972"></i> LA</li>
+<li><i class="icon-country icon-country_id_21578"></i> MH</li>
+<li><i class="icon-country icon-country_id_101519"></i> FK</li>
+<li><i class="icon-country icon-country_id_21451"></i> GF</li>
+<li><i class="icon-country icon-country_id_21572"></i> KI</li>
+<li><i class="icon-country icon-country_id_21601"></i> TV</li>
+<li><i class="icon-country icon-country_id_98542"></i> NU</li>
+</ul><br /><br />
+<h1 id="ext">ext</h1>
+<ul>
+<li><i class="icon-ext icon-ext_id_empty"></i> empty</li>
+<li><i class="icon-ext icon-ext_id_3gp"></i> 3gp</li>
+<li><i class="icon-ext icon-ext_id_7z"></i> 7z</li>
+<li><i class="icon-ext icon-ext_id_aac"></i> aac</li>
+<li><i class="icon-ext icon-ext_id_ac3"></i> ac3</li>
+<li><i class="icon-ext icon-ext_id_ai"></i> ai</li>
+<li><i class="icon-ext icon-ext_id_avi"></i> avi</li>
+<li><i class="icon-ext icon-ext_id_ape"></i> ape</li>
+<li><i class="icon-ext icon-ext_id_apk"></i> apk</li>
+<li><i class="icon-ext icon-ext_id_asf"></i> asf</li>
+<li><i class="icon-ext icon-ext_id_bmp"></i> bmp</li>
+<li><i class="icon-ext icon-ext_id_bz2"></i> bz2</li>
+<li><i class="icon-ext icon-ext_id_cab"></i> cab</li>
+<li><i class="icon-ext icon-ext_id_css"></i> css</li>
+<li><i class="icon-ext icon-ext_id_crc32"></i> crc32</li>
+<li><i class="icon-ext icon-ext_id_csv"></i> csv</li>
+<li><i class="icon-ext icon-ext_id_cdr"></i> cdr</li>
+<li><i class="icon-ext icon-ext_id_cue"></i> cue</li>
+<li><i class="icon-ext icon-ext_id_dmg"></i> dmg</li>
+<li><i class="icon-ext icon-ext_id_divx"></i> divx</li>
+<li><i class="icon-ext icon-ext_id_djv"></i> djv</li>
+<li><i class="icon-ext icon-ext_id_djvu"></i> djvu</li>
+<li><i class="icon-ext icon-ext_id_doc"></i> doc</li>
+<li><i class="icon-ext icon-ext_id_docx"></i> doc</li>
+<li><i class="icon-ext icon-ext_id_docm"></i> doc</li>
+<li><i class="icon-ext icon-ext_id_docb"></i> doc</li>
+<li><i class="icon-ext icon-ext_id_emf"></i> emf</li>
+<li><i class="icon-ext icon-ext_id_eps"></i> eps</li>
+<li><i class="icon-ext icon-ext_id_exe"></i> exe</li>
+<li><i class="icon-ext icon-ext_id_flv"></i> flv</li>
+<li><i class="icon-ext icon-ext_id_fla"></i> fla</li>
+<li><i class="icon-ext icon-ext_id_flac"></i> flac</li>
+<li><i class="icon-ext icon-ext_id_gif"></i> gif</li>
+<li><i class="icon-ext icon-ext_id_gz"></i> gz</li>
+<li><i class="icon-ext icon-ext_id_gzip"></i> gzip</li>
+<li><i class="icon-ext icon-ext_id_tgz"></i> tgz</li>
+<li><i class="icon-ext icon-ext_id_jpg"></i> jpg</li>
+<li><i class="icon-ext icon-ext_id_jpe"></i> jpe</li>
+<li><i class="icon-ext icon-ext_id_jpeg"></i> jpeg</li>
+<li><i class="icon-ext icon-ext_id_js"></i> js</li>
+<li><i class="icon-ext icon-ext_id_m3u"></i> m3u</li>
+<li><i class="icon-ext icon-ext_id_m3u8"></i> m3u8</li>
+<li><i class="icon-ext icon-ext_id_m4v"></i> m4v</li>
+<li><i class="icon-ext icon-ext_id_m4a"></i> m4a</li>
+<li><i class="icon-ext icon-ext_id_md5"></i> md5</li>
+<li><i class="icon-ext icon-ext_id_mp3"></i> mp3</li>
+<li><i class="icon-ext icon-ext_id_mkv"></i> mkv</li>
+<li><i class="icon-ext icon-ext_id_mp4"></i> mp4</li>
+<li><i class="icon-ext icon-ext_id_mpg"></i> mpg</li>
+<li><i class="icon-ext icon-ext_id_mpeg"></i> mpeg</li>
+<li><i class="icon-ext icon-ext_id_mov"></i> mov</li>
+<li><i class="icon-ext icon-ext_id_msi"></i> msi</li>
+<li><i class="icon-ext icon-ext_id_ods"></i> ods</li>
+<li><i class="icon-ext icon-ext_id_ogg"></i> ogg</li>
+<li><i class="icon-ext icon-ext_id_ogm"></i> ogm</li>
+<li><i class="icon-ext icon-ext_id_ogv"></i> ogv</li>
+<li><i class="icon-ext icon-ext_id_pdf"></i> pdf</li>
+<li><i class="icon-ext icon-ext_id_phps"></i> phps</li>
+<li><i class="icon-ext icon-ext_id_png"></i> png</li>
+<li><i class="icon-ext icon-ext_id_ppt"></i> ppt</li>
+<li><i class="icon-ext icon-ext_id_pptx"></i> pptx</li>
+<li><i class="icon-ext icon-ext_id_pptm"></i> pptm</li>
+<li><i class="icon-ext icon-ext_id_pptb"></i> pptb</li>
+<li><i class="icon-ext icon-ext_id_psd"></i> psd</li>
+<li><i class="icon-ext icon-ext_id_rar"></i> rar</li>
+<li><i class="icon-ext icon-ext_id_rtf"></i> rtf</li>
+<li><i class="icon-ext icon-ext_id_sea"></i> sea</li>
+<li><i class="icon-ext icon-ext_id_sha1"></i> sha1</li>
+<li><i class="icon-ext icon-ext_id_sit"></i> sit</li>
+<li><i class="icon-ext icon-ext_id_sfv"></i> sfv</li>
+<li><i class="icon-ext icon-ext_id_swf"></i> swf</li>
+<li><i class="icon-ext icon-ext_id_svg"></i> svg</li>
+<li><i class="icon-ext icon-ext_id_tar"></i> tar</li>
+<li><i class="icon-ext icon-ext_id_tif"></i> tif</li>
+<li><i class="icon-ext icon-ext_id_tiff"></i> tiff</li>
+<li><i class="icon-ext icon-ext_id_torrent"></i> torrent</li>
+<li><i class="icon-ext icon-ext_id_ts"></i> ts</li>
+<li><i class="icon-ext icon-ext_id_txt"></i> txt</li>
+<li><i class="icon-ext icon-ext_id_vob"></i> vob</li>
+<li><i class="icon-ext icon-ext_id_wav"></i> wav</li>
+<li><i class="icon-ext icon-ext_id_wave"></i> wave</li>
+<li><i class="icon-ext icon-ext_id_wmf"></i> wmf</li>
+<li><i class="icon-ext icon-ext_id_webm"></i> webm</li>
+<li><i class="icon-ext icon-ext_id_wma"></i> wma</li>
+<li><i class="icon-ext icon-ext_id_wmv"></i> wmv</li>
+<li><i class="icon-ext icon-ext_id_xls"></i> xls</li>
+<li><i class="icon-ext icon-ext_id_xlsx"></i> xlsx</li>
+<li><i class="icon-ext icon-ext_id_xlsm"></i> xlsm</li>
+<li><i class="icon-ext icon-ext_id_xlsb"></i> xlsb</li>
+<li><i class="icon-ext icon-ext_id_xpi"></i> xpi</li>
+<li><i class="icon-ext icon-ext_id_zip"></i> zip</li>
+<li><i class="icon-ext icon-ext_id_iso"></i> iso</li>
+</ul><br /><br />
+<h1 id="interest">interest</h1>
+<ul>
+<li><i class="icon-interest icon-interest_id_1"></i> мобильная связь и интернет</li>
+<li><i class="icon-interest icon-interest_id_2"></i> автомобили</li>
+<li><i class="icon-interest icon-interest_id_4"></i> B2B</li>
+<li><i class="icon-interest icon-interest_id_8"></i> финансы</li>
+<li><i class="icon-interest icon-interest_id_16"></i> семья и дети</li>
+<li><i class="icon-interest icon-interest_id_32"></i> туризм</li>
+<li><i class="icon-interest icon-interest_id_64"></i> премьеры фильмов</li>
+<li><i class="icon-interest icon-interest_id_128"></i> фото</li>
+<li><i class="icon-interest icon-interest_id_256"></i> строительство</li>
+<li><i class="icon-interest icon-interest_id_512"></i> кулинария</li>
+<li><i class="icon-interest icon-interest_id_1024"></i> программное обеспечение</li>
+<li><i class="icon-interest icon-interest_id_2048"></i> недвижимость</li>
+<li><i class="icon-interest icon-interest_id_4096"></i> здоровый образ жизни</li>
+<li><i class="icon-interest icon-interest_id_8192"></i> литература и учебные материалы</li>
+</ul><br /><br />
+<h1 id="mobile">mobile</h1>
+<ul>
+<li><i class="icon-mobile icon-mobile_id_1"></i> Apple iPhone</li>
+<li><i class="icon-mobile icon-mobile_id_2"></i> BlackBerry</li>
+<li><i class="icon-mobile icon-mobile_id_3"></i> BenQ-Siemens</li>
+<li><i class="icon-mobile icon-mobile_id_4"></i> HTC</li>
+<li><i class="icon-mobile icon-mobile_id_5"></i> Motorola</li>
+<li><i class="icon-mobile icon-mobile_id_6"></i> Nokia</li>
+<li><i class="icon-mobile icon-mobile_id_7"></i> Samsung</li>
+<li><i class="icon-mobile icon-mobile_id_8"></i> SonyEricsson</li>
+<li><i class="icon-mobile icon-mobile_id_9"></i> LG Electronics</li>
+<li><i class="icon-mobile icon-mobile_id_11"></i> Apple iPod Touch</li>
+<li><i class="icon-mobile icon-mobile_id_12"></i> Alcatel</li>
+<li><i class="icon-mobile icon-mobile_id_13"></i> Palm</li>
+<li><i class="icon-mobile icon-mobile_id_14"></i> Apple iPad</li>
+<li><i class="icon-mobile icon-mobile_id_15"></i> Philips</li>
+<li><i class="icon-mobile icon-mobile_id_16"></i> Fly</li>
+<li><i class="icon-mobile icon-mobile_id_17"></i> ASUS</li>
+<li><i class="icon-mobile icon-mobile_id_18"></i> Lenovo</li>
+<li><i class="icon-mobile icon-mobile_id_19"></i> МТС</li>
+<li><i class="icon-mobile icon-mobile_id_20"></i> BenQ-Siemens</li>
+<li><i class="icon-mobile icon-mobile_id_21"></i> Fujitsu</li>
+<li><i class="icon-mobile icon-mobile_id_22"></i> HP</li>
+<li><i class="icon-mobile icon-mobile_id_23"></i> Symbian</li>
+<li><i class="icon-mobile icon-mobile_id_24"></i> NEC</li>
+<li><i class="icon-mobile icon-mobile_id_25"></i> AUDIOVOX</li>
+<li><i class="icon-mobile icon-mobile_id_26"></i> Voxtel</li>
+<li><i class="icon-mobile icon-mobile_id_27"></i> Konka</li>
+<li><i class="icon-mobile icon-mobile_id_28"></i> Sonim</li>
+<li><i class="icon-mobile icon-mobile_id_29"></i> VK Mobile</li>
+<li><i class="icon-mobile icon-mobile_id_30"></i> Toshiba</li>
+<li><i class="icon-mobile icon-mobile_id_31"></i> O2</li>
+<li><i class="icon-mobile icon-mobile_id_32"></i> Meridian</li>
+<li><i class="icon-mobile icon-mobile_id_33"></i> Haier</li>
+<li><i class="icon-mobile icon-mobile_id_34"></i> Fujitsu Siemens</li>
+<li><i class="icon-mobile icon-mobile_id_35"></i> UTStarCom</li>
+<li><i class="icon-mobile icon-mobile_id_36"></i> Zakang</li>
+<li><i class="icon-mobile icon-mobile_id_37"></i> Uriver</li>
+<li><i class="icon-mobile icon-mobile_id_38"></i> EZZE</li>
+<li><i class="icon-mobile icon-mobile_id_39"></i> Bird</li>
+<li><i class="icon-mobile icon-mobile_id_40"></i> BW</li>
+<li><i class="icon-mobile icon-mobile_id_41"></i> TCL</li>
+<li><i class="icon-mobile icon-mobile_id_42"></i> KC Mobile</li>
+<li><i class="icon-mobile icon-mobile_id_43"></i> ASMOBILE</li>
+<li><i class="icon-mobile icon-mobile_id_44"></i> MiTac</li>
+<li><i class="icon-mobile icon-mobile_id_45"></i> Sendo</li>
+<li><i class="icon-mobile icon-mobile_id_46"></i> Mitsubishi</li>
+<li><i class="icon-mobile icon-mobile_id_47"></i> Qtek</li>
+<li><i class="icon-mobile icon-mobile_id_48"></i> BenQ</li>
+<li><i class="icon-mobile icon-mobile_id_49"></i> Amoi</li>
+<li><i class="icon-mobile icon-mobile_id_50"></i> BBK</li>
+<li><i class="icon-mobile icon-mobile_id_51"></i> ELSON</li>
+<li><i class="icon-mobile icon-mobile_id_52"></i> Rover PC</li>
+<li><i class="icon-mobile icon-mobile_id_53"></i> Sanyo</li>
+<li><i class="icon-mobile icon-mobile_id_54"></i> Gigabyte</li>
+<li><i class="icon-mobile icon-mobile_id_55"></i> Sagem</li>
+<li><i class="icon-mobile icon-mobile_id_56"></i> Vertu</li>
+<li><i class="icon-mobile icon-mobile_id_57"></i> Acer</li>
+<li><i class="icon-mobile icon-mobile_id_58"></i> Microsoft</li>
+<li><i class="icon-mobile icon-mobile_id_59"></i> Telit</li>
+<li><i class="icon-mobile icon-mobile_id_60"></i> ZTE</li>
+<li><i class="icon-mobile icon-mobile_id_61"></i> Apple</li>
+<li><i class="icon-mobile icon-mobile_id_62"></i> i-Mate</li>
+<li><i class="icon-mobile icon-mobile_id_63"></i> Huawei</li>
+<li><i class="icon-mobile icon-mobile_id_64"></i> Newgen</li>
+<li><i class="icon-mobile icon-mobile_id_65"></i> Kyocera</li>
+<li><i class="icon-mobile icon-mobile_id_66"></i> Skyspring</li>
+<li><i class="icon-mobile icon-mobile_id_67"></i> Sharp</li>
+<li><i class="icon-mobile icon-mobile_id_68"></i> Pantech</li>
+<li><i class="icon-mobile icon-mobile_id_69"></i> Ericsson</li>
+<li><i class="icon-mobile icon-mobile_id_70"></i> T-Mobile</li>
+<li><i class="icon-mobile icon-mobile_id_71"></i> Panasonic</li>
+<li><i class="icon-mobile icon-mobile_id_72"></i> DELL</li>
+<li><i class="icon-mobile icon-mobile_id_73"></i> DIVA</li>
+<li><i class="icon-mobile icon-mobile_id_74"></i> Amazon</li>
+</ul><br /><br />
+<h1 id="os">os</h1>
+<ul>
+<li><i class="icon-os icon-os_id_1"></i> Windows Vista</li>
+<li><i class="icon-os icon-os_id_2"></i> Windows 2003 Server или XP Pro x64</li>
+<li><i class="icon-os icon-os_id_3"></i> Windows XP</li>
+<li><i class="icon-os icon-os_id_4"></i> Windows 2000</li>
+<li><i class="icon-os icon-os_id_5"></i> Windows NT 4.0</li>
+<li><i class="icon-os icon-os_id_6"></i> Windows 98</li>
+<li><i class="icon-os icon-os_id_7"></i> Windows 95</li>
+<li><i class="icon-os icon-os_id_8"></i> Mac OS X (другие или не определено)</li>
+<li><i class="icon-os icon-os_id_9"></i> Linux (другие или не определено)</li>
+<li><i class="icon-os icon-os_id_10"></i> FreeBSD</li>
+<li><i class="icon-os icon-os_id_11"></i> SymbianOS</li>
+<li><i class="icon-os icon-os_id_12"></i> iPhone OS (другие или не определено)</li>
+<li><i class="icon-os icon-os_id_13"></i> Sun OS</li>
+<li><i class="icon-os icon-os_id_14"></i> OS/2</li>
+<li><i class="icon-os icon-os_id_15"></i> Ubuntu (другие или не определено)</li>
+<li><i class="icon-os icon-os_id_16"></i> Debian</li>
+<li><i class="icon-os icon-os_id_17"></i> Mandriva</li>
+<li><i class="icon-os icon-os_id_18"></i> Gentoo</li>
+<li><i class="icon-os icon-os_id_19"></i> SUSE</li>
+<li><i class="icon-os icon-os_id_20"></i> Fedora</li>
+<li><i class="icon-os icon-os_id_21"></i> Mint</li>
+<li><i class="icon-os icon-os_id_22"></i> CentOS</li>
+<li><i class="icon-os icon-os_id_23"></i> Red Hat</li>
+<li><i class="icon-os icon-os_id_24"></i> Windows Mobile (другие или не определено)</li>
+<li><i class="icon-os icon-os_id_26"></i> ASP Linux</li>
+<li><i class="icon-os icon-os_id_27"></i> ALT Linux</li>
+<li><i class="icon-os icon-os_id_28"></i> Linux XP</li>
+<li><i class="icon-os icon-os_id_29"></i> Splashtop</li>
+<li><i class="icon-os icon-os_id_30"></i> Windows Me</li>
+<li><i class="icon-os icon-os_id_31"></i> Windows NT 3.51</li>
+<li><i class="icon-os icon-os_id_32"></i> Windows 3.1</li>
+<li><i class="icon-os icon-os_id_33"></i> Windows 7 или 2008 Server</li>
+<li><i class="icon-os icon-os_id_34"></i> NetBSD</li>
+<li><i class="icon-os icon-os_id_35"></i> OpenBSD</li>
+<li><i class="icon-os icon-os_id_36"></i> Windows (другие или не определено)</li>
+<li><i class="icon-os icon-os_id_37"></i> Mac OS (другие)</li>
+<li><i class="icon-os icon-os_id_38"></i> Ubuntu 9.10 Karmic Koala</li>
+<li><i class="icon-os icon-os_id_39"></i> Ubuntu 9.04 Jaunty Jackalope</li>
+<li><i class="icon-os icon-os_id_40"></i> Ubuntu 8.10 Intrepid Ibex</li>
+<li><i class="icon-os icon-os_id_41"></i> Ubuntu 8.04 Hardy Heron</li>
+<li><i class="icon-os icon-os_id_42"></i> Ubuntu 7.10 Gutsy Gibbon</li>
+<li><i class="icon-os icon-os_id_43"></i> Ubuntu 7.04 Feisty Fawn</li>
+<li><i class="icon-os icon-os_id_44"></i> Ubuntu 6.10 Edgy Fit</li>
+<li><i class="icon-os icon-os_id_45"></i> Ubuntu 6.06 Dapper Drake</li>
+<li><i class="icon-os icon-os_id_46"></i> Ubuntu 5.10 Breezy Badger</li>
+<li><i class="icon-os icon-os_id_47"></i> Ubuntu 5.04 Hoary Hedgehog</li>
+<li><i class="icon-os icon-os_id_48"></i> Ubuntu 4.10 Warty Warthog</li>
+<li><i class="icon-os icon-os_id_49"></i> X11 (другие или не определено)</li>
+<li><i class="icon-os icon-os_id_50"></i> Windows Mobile Pocket PC Edition</li>
+<li><i class="icon-os icon-os_id_51"></i> Windows Mobile Smartphone Edition</li>
+<li><i class="icon-os icon-os_id_52"></i> QNX</li>
+<li><i class="icon-os icon-os_id_53"></i> PalmOS</li>
+<li><i class="icon-os icon-os_id_54"></i> BREW</li>
+<li><i class="icon-os icon-os_id_55"></i> Другие с Java ME</li>
+<li><i class="icon-os icon-os_id_56"></i> Google Android</li>
+<li><i class="icon-os icon-os_id_57"></i> Mac OS X 10.4 Tiger</li>
+<li><i class="icon-os icon-os_id_58"></i> Mac OS X 10.5 Leopard</li>
+<li><i class="icon-os icon-os_id_59"></i> Mac OS X 10.6 Snow Leopard</li>
+<li><i class="icon-os icon-os_id_60"></i> iPhone OS 1</li>
+<li><i class="icon-os icon-os_id_61"></i> iPhone OS 2</li>
+<li><i class="icon-os icon-os_id_62"></i> iPhone OS 3</li>
+<li><i class="icon-os icon-os_id_63"></i> Moblin OS</li>
+<li><i class="icon-os icon-os_id_100"></i> Windows</li>
+<li><i class="icon-os icon-os_id_101"></i> GNU/Linux</li>
+<li><i class="icon-os icon-os_id_102"></i> Ubuntu</li>
+<li><i class="icon-os icon-os_id_103"></i> Mac OS</li>
+<li><i class="icon-os icon-os_id_104"></i> BSD</li>
+<li><i class="icon-os icon-os_id_105"></i> Windows Mobile</li>
+<li><i class="icon-os icon-os_id_106"></i> Mac OS X</li>
+<li><i class="icon-os icon-os_id_107"></i> iPhone OS</li>
+<li><i class="icon-os icon-os_id_64"></i> Ubuntu 10.04 Lucid</li>
+<li><i class="icon-os icon-os_id_65"></i> Ubuntu 10.10 maverick</li>
+<li><i class="icon-os icon-os_id_66"></i> iPhone OS 4</li>
+<li><i class="icon-os icon-os_id_67"></i> Ubuntu 11.04 Natty Narwhal</li>
+<li><i class="icon-os icon-os_id_68"></i> Mac OS X 10.7 Lion</li>
+<li><i class="icon-os icon-os_id_69"></i> Google Chrome OS</li>
+<li><i class="icon-os icon-os_id_70"></i> Bada OS</li>
+<li><i class="icon-os icon-os_id_71"></i> Windows Phone OS 7.0</li>
+<li><i class="icon-os icon-os_id_72"></i> Google Android 1.0</li>
+<li><i class="icon-os icon-os_id_73"></i> Google Android 1.1</li>
+<li><i class="icon-os icon-os_id_74"></i> Google Android 1.5</li>
+<li><i class="icon-os icon-os_id_75"></i> Google Android 1.6</li>
+<li><i class="icon-os icon-os_id_76"></i> Google Android 2.0</li>
+<li><i class="icon-os icon-os_id_77"></i> Google Android 2.1</li>
+<li><i class="icon-os icon-os_id_78"></i> Google Android 2.2</li>
+<li><i class="icon-os icon-os_id_79"></i> Google Android 2.3</li>
+<li><i class="icon-os icon-os_id_80"></i> Google Android 3.0</li>
+<li><i class="icon-os icon-os_id_81"></i> Google Android 3.1</li>
+<li><i class="icon-os icon-os_id_108"></i> Google Android</li>
+<li><i class="icon-os icon-os_id_82"></i> Windows Phone OS 6.5</li>
+<li><i class="icon-os icon-os_id_83"></i> Google Android 3.2 Honeycomb</li>
+<li><i class="icon-os icon-os_id_84"></i> Google Android 4.0 Ice Cream Sandwich</li>
+<li><i class="icon-os icon-os_id_85"></i> Windows 8</li>
+<li><i class="icon-os icon-os_id_86"></i> iOS 5</li>
+<li><i class="icon-os icon-os_id_87"></i> WebOS (другие или не определено)</li>
+<li><i class="icon-os icon-os_id_88"></i> WebOS 1</li>
+<li><i class="icon-os icon-os_id_89"></i> WebOS 2</li>
+<li><i class="icon-os icon-os_id_90"></i> WebOS 3</li>
+<li><i class="icon-os icon-os_id_109"></i> WebOS</li>
+<li><i class="icon-os icon-os_id_91"></i> Windows Phone OS 7.5</li>
+<li><i class="icon-os icon-os_id_92"></i> Maemo</li>
+<li><i class="icon-os icon-os_id_93"></i> MeeGo</li>
+<li><i class="icon-os icon-os_id_94"></i> Mac OS X 10.8</li>
+<li><i class="icon-os icon-os_id_95"></i> Android 4.1</li>
+<li><i class="icon-os icon-os_id_96"></i> Windows Phone 8</li>
+<li><i class="icon-os icon-os_id_97"></i> Nucleus</li>
+<li><i class="icon-os icon-os_id_98"></i> BlackBerry</li>
+<li><i class="icon-os icon-os_id_99"></i> RIM Tablet OS</li>
+<li><i class="icon-os icon-os_id_201"></i> iOS 6</li>
+<li><i class="icon-os icon-os_id_212"></i> iOS 7</li>
+<li><i class="icon-os icon-os_id_204"></i> Series 40</li>
+<li><i class="icon-os icon-os_id_205"></i> Windows RT</li>
+</ul><br /><br />
+<h1 id="protocol">protocol</h1>
+<ul>
+<li><i class="icon-protocol icon-protocol_id_mailto"></i> mailto</li>
+<li><i class="icon-protocol icon-protocol_id_torrent"></i> torrent</li>
+<li><i class="icon-protocol icon-protocol_id_skype"></i> skype</li>
+<li><i class="icon-protocol icon-protocol_id_tel"></i> tel</li>
+<li><i class="icon-protocol icon-protocol_id_rss"></i> rss</li>
+</ul><br /><br />
+<h1 id="se">se</h1>
+<ul>
+<li><i class="icon-se icon-se_id_1"></i> Яндекс.Картинки</li>
+<li><i class="icon-se icon-se_id_2"></i> Яндекс, результаты поиска</li>
+<li><i class="icon-se icon-se_id_3"></i> Google, результаты поиска</li>
+<li><i class="icon-se icon-se_id_4"></i> Nigma</li>
+<li><i class="icon-se icon-se_id_5"></i> Live Search, результаты поиска</li>
+<li><i class="icon-se icon-se_id_6"></i> Mail.ru, результаты поиска</li>
+<li><i class="icon-se icon-se_id_7"></i> Aport</li>
+<li><i class="icon-se icon-se_id_8"></i> MSN, результаты поиска</li>
+<li><i class="icon-se icon-se_id_9"></i> Yahoo, результаты поиска</li>
+<li><i class="icon-se icon-se_id_10"></i> Rambler, результаты поиска</li>
+<li><i class="icon-se icon-se_id_11"></i> Google.Видео</li>
+<li><i class="icon-se icon-se_id_12"></i> Google.Картинки</li>
+<li><i class="icon-se icon-se_id_13"></i> Мобильный Яндекс</li>
+<li><i class="icon-se icon-se_id_14"></i> Яндекс.Маркет</li>
+<li><i class="icon-se icon-se_id_15"></i> Яндекс.Поиск по блогам</li>
+<li><i class="icon-se icon-se_id_16"></i> All.by</li>
+<li><i class="icon-se icon-se_id_17"></i> Tut.by</li>
+<li><i class="icon-se icon-se_id_18"></i> Bigmir.net</li>
+<li><i class="icon-se icon-se_id_19"></i> Meta.ua</li>
+<li><i class="icon-se icon-se_id_20"></i> GoGo, результаты поиска</li>
+<li><i class="icon-se icon-se_id_23"></i> Search.com</li>
+<li><i class="icon-se icon-se_id_24"></i> AOL</li>
+<li><i class="icon-se icon-se_id_25"></i> Lycos|http://lycos.com/</li>
+<li><i class="icon-se icon-se_id_26"></i> Яндекс</li>
+<li><i class="icon-se icon-se_id_27"></i> Google</li>
+<li><i class="icon-se icon-se_id_28"></i> Google.Поиск по блогам</li>
+<li><i class="icon-se icon-se_id_29"></i> Яндекс.Каталог</li>
+<li><i class="icon-se icon-se_id_31"></i> Яндекс.Адреса</li>
+<li><i class="icon-se icon-se_id_32"></i> Яндекс.Поиск по объявлениям Директа</li>
+<li><i class="icon-se icon-se_id_33"></i> Rambler</li>
+<li><i class="icon-se icon-se_id_34"></i> Mail.ru</li>
+<li><i class="icon-se icon-se_id_35"></i> Live Search</li>
+<li><i class="icon-se icon-se_id_36"></i> Yahoo!</li>
+<li><i class="icon-se icon-se_id_37"></i> MSN</li>
+<li><i class="icon-se icon-se_id_38"></i> AltaVista</li>
+<li><i class="icon-se icon-se_id_39"></i> Поиск на ICQ.com</li>
+<li><i class="icon-se icon-se_id_40"></i> Поиск на QIP.ru</li>
+<li><i class="icon-se icon-se_id_41"></i> Rambler: поиск по рейтингу</li>
+<li><i class="icon-se icon-se_id_42"></i> Rambler: поиск по новостям</li>
+<li><i class="icon-se icon-se_id_43"></i> Rambler: поиск по видео</li>
+<li><i class="icon-se icon-se_id_44"></i> Rambler: поиск по картинкам</li>
+<li><i class="icon-se icon-se_id_45"></i> Видео@mail.ru</li>
+<li><i class="icon-se icon-se_id_46"></i> Картинки@mail.ru</li>
+<li><i class="icon-se icon-se_id_47"></i> Live Search Видео</li>
+<li><i class="icon-se icon-se_id_48"></i> Live Search Изображения</li>
+<li><i class="icon-se icon-se_id_49"></i> Yahoo! Video Search Results</li>
+<li><i class="icon-se icon-se_id_50"></i> Yahoo! Image Search Results</li>
+<li><i class="icon-se icon-se_id_51"></i> Yahoo! Shopping Search Results</li>
+<li><i class="icon-se icon-se_id_53"></i> Altavista - Image Search</li>
+<li><i class="icon-se icon-se_id_54"></i> AltaVista, результаты поиска</li>
+<li><i class="icon-se icon-se_id_55"></i> MSN Видео</li>
+<li><i class="icon-se icon-se_id_56"></i> MSN Изображения</li>
+<li><i class="icon-se icon-se_id_57"></i> Wikia Search</li>
+<li><i class="icon-se icon-se_id_58"></i> Exalead.fr</li>
+<li><i class="icon-se icon-se_id_59"></i> Cuil.com</li>
+<li><i class="icon-se icon-se_id_60"></i> Alexa Web Search</li>
+<li><i class="icon-se icon-se_id_61"></i> GoGo</li>
+<li><i class="icon-se icon-se_id_62"></i> GoGo, поиск видео</li>
+<li><i class="icon-se icon-se_id_63"></i> GoGo, поиск изображений</li>
+<li><i class="icon-se icon-se_id_64"></i> Magna</li>
+<li><i class="icon-se icon-se_id_65"></i> Quintura</li>
+<li><i class="icon-se icon-se_id_66"></i> Webalta</li>
+<li><i class="icon-se icon-se_id_67"></i> Пользовательский поиск Google</li>
+<li><i class="icon-se icon-se_id_68"></i> Мобильный Google</li>
+<li><i class="icon-se icon-se_id_69"></i> Поиск картинок на ICQ.com</li>
+<li><i class="icon-se icon-se_id_71"></i> ICQ.com, результаты поиска</li>
+<li><i class="icon-se icon-se_id_72"></i> Мобильный Live Search</li>
+<li><i class="icon-se icon-se_id_73"></i> Мобильный MSN</li>
+<li><i class="icon-se icon-se_id_74"></i> Яндекс.Новости</li>
+<li><i class="icon-se icon-se_id_75"></i> Яндекс.Видео</li>
+<li><i class="icon-se icon-se_id_76"></i> Ukr.net</li>
+<li><i class="icon-se icon-se_id_77"></i> Ukr.net - Google</li>
+<li><i class="icon-se icon-se_id_78"></i> Ukr.net - Яндекс</li>
+<li><i class="icon-se icon-se_id_79"></i> Poisk.ru</li>
+<li><i class="icon-se icon-se_id_80"></i> Metabot.ru</li>
+<li><i class="icon-se icon-se_id_81"></i> Conduit</li>
+<li><i class="icon-se icon-se_id_82"></i> I.ua</li>
+<li><i class="icon-se icon-se_id_83"></i> Google.Новости</li>
+<li><i class="icon-se icon-se_id_84"></i> Bing</li>
+<li><i class="icon-se icon-se_id_85"></i> Bing, результаты поиска</li>
+<li><i class="icon-se icon-se_id_86"></i> Bing Изображения</li>
+<li><i class="icon-se icon-se_id_87"></i> Bing Видео</li>
+<li><i class="icon-se icon-se_id_88"></i> Google Mobilizer</li>
+<li><i class="icon-se icon-se_id_89"></i> Ask.com</li>
+<li><i class="icon-se icon-se_id_90"></i> Ask.com Search</li>
+<li><i class="icon-se icon-se_id_91"></i> Ask.com Image Search</li>
+<li><i class="icon-se icon-se_id_92"></i> Ask.com Video Search</li>
+<li><i class="icon-se icon-se_id_93"></i> DAEMON search</li>
+<li><i class="icon-se icon-se_id_94"></i> MyStart by IncrediMail.com</li>
+<li><i class="icon-se icon-se_id_95"></i> ГДЕ.РУ</li>
+<li><i class="icon-se icon-se_id_96"></i> ГДЕ.РУ, результаты поиска</li>
+<li><i class="icon-se icon-se_id_97"></i> Картинки на ГДЕ.РУ</li>
+<li><i class="icon-se icon-se_id_98"></i> My Web Search</li>
+<li><i class="icon-se icon-se_id_99"></i> Мобильный Bing</li>
+<li><i class="icon-se icon-se_id_100"></i> Aport</li>
+<li><i class="icon-se icon-se_id_101"></i> Мобильный Aport</li>
+<li><i class="icon-se icon-se_id_102"></i> Апорт, поиск изображений</li>
+<li><i class="icon-se icon-se_id_103"></i> Babylon Search</li>
+<li><i class="icon-se icon-se_id_104"></i> Seznam.cz</li>
+<li><i class="icon-se icon-se_id_105"></i> Гювеч (GBG.BG)</li>
+<li><i class="icon-se icon-se_id_106"></i> Pivim.com</li>
+<li><i class="icon-se icon-se_id_107"></i> Поиск на Sweet IM</li>
+<li><i class="icon-se icon-se_id_108"></i> Winamp Search</li>
+<li><i class="icon-se icon-se_id_109"></i> Nur.kz</li>
+<li><i class="icon-se icon-se_id_110"></i> Kazakh</li>
+<li><i class="icon-se icon-se_id_111"></i> Blekko</li>
+<li><i class="icon-se icon-se_id_112"></i> topsy</li>
+<li><i class="icon-se icon-se_id_113"></i> Rx24</li>
+<li><i class="icon-se icon-se_id_114"></i> DuckDuckGo</li>
+<li><i class="icon-se icon-se_id_115"></i> Поиск KM.RU</li>
+<li><i class="icon-se icon-se_id_116"></i> Gigabase2</li>
+<li><i class="icon-se icon-se_id_117"></i> AOL</li>
+<li><i class="icon-se icon-se_id_118"></i> KAZ.KZ</li>
+<li><i class="icon-se icon-se_id_119"></i> Мобильный Mail.ru</li>
+<li><i class="icon-se icon-se_id_120"></i> Мобильный Mail.ru, поиск изображений</li>
+<li><i class="icon-se icon-se_id_121"></i> Мобильный Rambler</li>
+<li><i class="icon-se icon-se_id_122"></i> QIP</li>
+<li><i class="icon-se icon-se_id_123"></i> QIP.Картинки</li>
+<li><i class="icon-se icon-se_id_124"></i> Яндекс.Работа</li>
+<li><i class="icon-se icon-se_id_125"></i> Яндекс.Авто</li>
+<li><i class="icon-se icon-se_id_126"></i> Яндекс.Недвижимость</li>
+<li><i class="icon-se icon-se_id_127"></i> Яндекс.Словари</li>
+<li><i class="icon-se icon-se_id_128"></i> gmx.net</li>
+<li><i class="icon-se icon-se_id_129"></i> ecosia.org</li>
+<li><i class="icon-se icon-se_id_130"></i> mywebsearch.com</li>
+<li><i class="icon-se icon-se_id_131"></i> infospace.com</li>
+<li><i class="icon-se icon-se_id_132"></i> v9.com</li>
+<li><i class="icon-se icon-se_id_133"></i> search-results.com</li>
+<li><i class="icon-se icon-se_id_134"></i> search.avg.com</li>
+<li><i class="icon-se icon-se_id_135"></i> search.handycafe.com</li>
+<li><i class="icon-se icon-se_id_136"></i> search.sweetim.com</li>
+<li><i class="icon-se icon-se_id_137"></i> search.softonic.com</li>
+<li><i class="icon-se icon-se_id_138"></i> start.funmoods.com</li>
+<li><i class="icon-se icon-se_id_139"></i> search.iminent.com</li>
+<li><i class="icon-se icon-se_id_140"></i> searchya.com</li>
+<li><i class="icon-se icon-se_id_141"></i> plusnetwork.com</li>
+<li><i class="icon-se icon-se_id_142"></i> searchcompletion.com</li>
+<li><i class="icon-se icon-se_id_143"></i> search.incredibar.com</li>
+<li><i class="icon-se icon-se_id_144"></i> 7search.com</li>
+<li><i class="icon-se icon-se_id_145"></i> crawler.com</li>
+<li><i class="icon-se icon-se_id_146"></i> search.smilebox.com</li>
+<li><i class="icon-se icon-se_id_147"></i> speedbit.com</li>
+<li><i class="icon-se icon-se_id_149"></i> hakia.com</li>
+<li><i class="icon-se icon-se_id_150"></i> hotbot.com</li>
+<li><i class="icon-se icon-se_id_151"></i> gigablast.com</li>
+<li><i class="icon-se icon-se_id_152"></i> amfibi.com</li>
+<li><i class="icon-se icon-se_id_153"></i> acoon.com</li>
+<li><i class="icon-se icon-se_id_154"></i> yippy.com</li>
+<li><i class="icon-se icon-se_id_155"></i> dogpile.com</li>
+<li><i class="icon-se icon-se_id_156"></i> mamma.com</li>
+<li><i class="icon-se icon-se_id_157"></i> myahint.com</li>
+<li><i class="icon-se icon-se_id_158"></i> netsearch.org</li>
+<li><i class="icon-se icon-se_id_159"></i> scrubtheweb.com</li>
+<li><i class="icon-se icon-se_id_160"></i> arama.com</li>
+<li><i class="icon-se icon-se_id_161"></i> icerocket.com</li>
+<li><i class="icon-se icon-se_id_162"></i> daum.net</li>
+<li><i class="icon-se icon-se_id_163"></i> goo.ne.jp</li>
+<li><i class="icon-se icon-se_id_164"></i> najdi.si</li>
+<li><i class="icon-se icon-se_id_165"></i> naver.com</li>
+<li><i class="icon-se icon-se_id_166"></i> sapo.pt</li>
+<li><i class="icon-se icon-se_id_167"></i> baidu.com</li>
+<li><i class="icon-se icon-se_id_168"></i> sogou.com</li>
+<li><i class="icon-se icon-se_id_169"></i> metacrawler.com</li>
+<li><i class="icon-se icon-se_id_170"></i> startsiden.no/sok</li>
+<li><i class="icon-se icon-se_id_171"></i> search.about.com</li>
+<li><i class="icon-se icon-se_id_172"></i> voila.fr</li>
+<li><i class="icon-se icon-se_id_173"></i> virgilio.it</li>
+<li><i class="icon-se icon-se_id_174"></i> wp.pl</li>
+<li><i class="icon-se icon-se_id_175"></i> onet.pl</li>
+<li><i class="icon-se icon-se_id_176"></i> yam.com</li>
+<li><i class="icon-se icon-se_id_177"></i> kvasir.no</li>
+<li><i class="icon-se icon-se_id_178"></i> biglobe.ne.jp</li>
+<li><i class="icon-se icon-se_id_179"></i> Мобильный Yahoo!</li>
+<li><i class="icon-se icon-se_id_180"></i> so.360.cn</li>
+<li><i class="icon-se icon-se_id_181"></i> Яндекс: мобильное приложение</li>
+</ul><br /><br />
+<h1 id="sn">sn</h1>
+<ul>
+<li><i class="icon-sn icon-sn_id_1"></i> Vkontakte</li>
+<li><i class="icon-sn icon-sn_id_2"></i> Twitter</li>
+<li><i class="icon-sn icon-sn_id_3"></i> Facebook</li>
+<li><i class="icon-sn icon-sn_id_4"></i> Odnoklassniki</li>
+<li><i class="icon-sn icon-sn_id_5"></i> Liveinternet</li>
+<li><i class="icon-sn icon-sn_id_6"></i> Livejournal</li>
+<li><i class="icon-sn icon-sn_id_7"></i> Leprosorium</li>
+<li><i class="icon-sn icon-sn_id_8"></i> Diary</li>
+<li><i class="icon-sn icon-sn_id_9"></i> Google</li>
+<li><i class="icon-sn icon-sn_id_10"></i> Mail</li>
+<li><i class="icon-sn icon-sn_id_11"></i> Orkut</li>
+<li><i class="icon-sn icon-sn_id_12"></i> Ya.ru</li>
+<li><i class="icon-sn icon-sn_id_13"></i> Moikrug</li>
+<li><i class="icon-sn icon-sn_id_14"></i> Vkrugudruzei</li>
+<li><i class="icon-sn icon-sn_id_15"></i> LinkedIn</li>
+<li><i class="icon-sn icon-sn_id_16"></i> Juick</li>
+<li><i class="icon-sn icon-sn_id_17"></i> Connect</li>
+<li><i class="icon-sn icon-sn_id_18"></i> LJ Rossia.org</li>
+<li><i class="icon-sn icon-sn_id_19"></i> FriendFeed</li>
+<li><i class="icon-sn icon-sn_id_20"></i> Myspace</li>
+<li><i class="icon-sn icon-sn_id_21"></i> delicious</li>
+<li><i class="icon-sn icon-sn_id_22"></i> Mirtesen</li>
+<li><i class="icon-sn icon-sn_id_23"></i> Privet</li>
+<li><i class="icon-sn icon-sn_id_24"></i> Draugiem</li>
+<li><i class="icon-sn icon-sn_id_25"></i> Cloob</li>
+<li><i class="icon-sn icon-sn_id_26"></i> Mixi</li>
+<li><i class="icon-sn icon-sn_id_28"></i> Baidu</li>
+<li><i class="icon-sn icon-sn_id_29"></i> Hi5</li>
+<li><i class="icon-sn icon-sn_id_30"></i> Renren</li>
+<li><i class="icon-sn icon-sn_id_31"></i> Skyrock</li>
+<li><i class="icon-sn icon-sn_id_32"></i> Tumblr</li>
+</ul><br /><br />
+     </div>
+</body>
+</html>

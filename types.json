@@ -1,5 +1,7 @@
 [
     {
+        "title": "Социальные сети",
+        "description": "Иконки социальных сетей",
         "id": "sn",
         "find": true,
         "cssPrefix": ".icon-sn",
@@ -7,6 +9,8 @@
         "fileName": "icon-sn.css"
     },
     {
+        "title": "Поисковые системы",
+        "description": "Иконки поисковых систем",
         "id": "se",
         "find": true,
         "cssPrefix": ".icon-se",
@@ -14,60 +18,77 @@
         "fileName": "icon-se.css"
     },
     {
+        "title": "Баннерные системы",
+        "description": "Иконки баннерных систем",
+        "id": "bn",
+        "find": true,
+        "cssPrefix": ".icon-bn",
+        "cssClass": "icon-bn",
+        "fileName": "icon-bn.css"
+    },
+    {
+        "title": "Протоколы",
+        "description": "Иконки типов протоколов",
         "id": "protocol",
-        "find": false,
         "cssPrefix": ".icon-protocol",
         "cssClass": "icon-protocol",
         "fileName": "icon-protocol.css"
     },
     {
+        "title": "Операционные системы",
+        "description": "Иконки операционных систем",
         "id": "os",
-        "find": false,
         "cssPrefix": ".icon-os",
         "cssClass": "icon-os",
         "fileName": "icon-os.css"
     }, 
     {
+        "title": "Мобильные устройства",
+        "description": "Иконки мобильных устройств",
         "id": "mobile",
-        "find": false,
         "cssPrefix": ".icon-mobile",
         "cssClass": "icon-mobile",
         "fileName": "icon-mobile.css"
     },
     {
+        "title": "Интересы",
+        "description": "Иконки интересов",
         "id": "interest",
-        "find": false,
         "cssPrefix": ".icon-interest",
         "cssClass": "icon-interest",
         "fileName": "icon-interest.css"
     },   
     {
+        "title": "Расширения файлов",
+        "description": "Иконки расширений файлов",
         "id": "ext",
-        "find": false,
         "cssPrefix": ".icon-ext",
         "cssClass": "icon-ext",
         "fileName": "icon-ext.css"
     },    
     {
+        "title": "Страны",
+        "description": "Иконки стран",
         "id": "country",
-        "find": false,
         "fileNameFromName": true,
         "cssPrefix": ".icon-country",
         "cssClass": "icon-country",
         "fileName": "icon-country.css"
     },
     {
+        "title": "Браузеры",
+        "description": "Иконки браузеров",
         "id": "browser",
-        "find": false,
         "cssPrefix": ".icon-browser",
         "cssClass": "icon-browser",
         "fileName": "icon-browser.css"
     },    
     {
-        "id": "bn",
-        "find": false,
-        "cssPrefix": ".icon-bn",
-        "cssClass": "icon-bn",
-        "fileName": "icon-bn.css"
+        "title": "Источники трафика",
+        "description": "Иконки источников трафика",
+        "id": "source",
+        "cssPrefix": ".icon-source",
+        "cssClass": "icon-source",
+        "fileName": "icon-source.css"
     }
 ]

@@ -5,7 +5,8 @@
     display: inline-block;
     width: 16px;
     height: 16px;
-    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: center center;    
 }
 
 /* GL */
